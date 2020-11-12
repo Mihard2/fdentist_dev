@@ -1,0 +1,400 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201908 will be lost/reset.
+# Last config file used to build this data file was /home/fdentist/tmp/awstats/awstats.fdentist.ml.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2680                
+POS_VISITOR 10390               
+POS_DAY 12420               
+POS_DOMAIN 3389                
+POS_LOGIN 3701                
+POS_ROBOT 3856                
+POS_WORMS 4236                
+POS_EMAILSENDER 4367                
+POS_EMAILRECEIVER 4510                
+POS_SESSION 12748               
+POS_SIDER 12954               
+POS_FILETYPES 4645                
+POS_DOWNLOADS 4930                
+POS_OS 5213                
+POS_BROWSER 5391                
+POS_SCREENSIZE 5848                
+POS_UNKNOWNREFERER 5922                
+POS_UNKNOWNREFERERBROWSER 6035                
+POS_ORIGIN 6143                
+POS_SEREFERRALS 6281                
+POS_PAGEREFS 6425                
+POS_SEARCHWORDS 6610                
+POS_KEYWORDS 6762                
+POS_MISC 2344                
+POS_ERRORS 6821                
+POS_CLUSTER 3557                
+POS_SIDER_404 6945                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190901202903 1 0 10693315148251
+FirstTime 20190805235214
+LastTime 20190828032227
+LastUpdate 20190901232241 1 0 0 0 0
+TotalVisits 55                  
+TotalUnique 44                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 51                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 24 26 1682922 3 731 3037978
+1 5 11 385369 5 135 110045
+2 0 0 0 0 0 0
+3 15 209 8692548 1 287 322830
+4 11 11 1213603 0 312 231196
+5 0 0 0 0 0 0
+6 0 0 0 1 2 111329
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 1 1 878541 0 0 0
+11 10 10 1098165 1 312 334717
+12 0 0 0 2 6 129500
+13 1 1 878541 1 2 109144
+14 4 101 3960343 1 38 172881
+15 34 902 41103400 4 77 433815
+16 27 516 21486610 2 26 8535
+17 24 151 10688328 3 242 293184
+18 9 208 8066907 1 109 223671
+19 4 4 440190 0 124 89072
+20 7 7 775972 0 217 155876
+21 0 9 680 1 2 109660
+22 1 1 108829 1 2 110263
+23 12 206 9550062 0 165 892060
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 89 506 27282409
+ua 84 1522 66805702
+ru 12 339 13392177
+de 2 3 1773486
+fr 1 1 878541
+gb 1 3 878695
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+spider 9 301525 20190818150719 0
+YandexMetrika/ 8 290379 20190823141554 0
+YandexBot/ 7 771627 20190831215324 0
+(firefox/)([0-9]\.|[0-1][0]\.) 3 10980 20190806012139 0
+TelegramBot 2 220347 20190821152221 0
+YandexMobileBot/ 1 112130 20190810120111 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 117 1501387 0 0
+jpg 1145 36003650 0 0
+xml 1 556 0 0
+svg 201 133188 0 0
+html 150 19275161 0 0
+txt 9 680 0 0
+zip 1 6009815 0 0
+js 194 1322557 0 0
+ico 15 66210 0 0
+png 484 45944272 0 0
+gif 19 774 0 0
+woff 38 752760 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/.well-known/pki-validation/6299D0529105185A5BF762FF13B8D8F1.txt 8 0 616
+/%d0%a1%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f.zip 1 0 6009815
+/.well-known/pki-validation/26DD884C72876CD7BE232A58C69BAF79.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+macosx8 1 1
+macosx 1061 66
+win7 353 60
+ios_iphone 27 3
+linux 348 25
+win10 417 14
+Unknown 9 0
+linuxandroid 158 20
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 21
+safari11.0 27 3
+netscape5.0 1 1
+chrome76.0.3809.111 17 2
+firefox58.0 2 2
+firefox54.0 1 1
+chrome60.0.3112.50 200 6
+chrome57.0.2987.98 50 50
+safari11.1.2 2 2
+Unknown 9 0
+chrome71.0.3578.141 22 1
+firefox60.0 1 0
+lg\- 3 2
+firefox57.0 1 1
+firefox68.0 817 22
+chrome76.0.3809.89 9 1
+android 1 1
+chrome26.0.1410.65 1 1
+chrome74.0.3694.0 251 29
+chrome76.0.3809.100 704 21
+chrome75.0.3770.100 254 42
+firefox36.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+COMODO_DCV 20190806212049
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+COMODO_DCV 20190806212049
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 145 174
+From1 1 1
+From2 0 0
+From3 1 1
+From4 42 2198
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://skm181.hostsila.org:2087 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+301 1 0
+403 942 4554887
+499 5 0
+404 1804 613881
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 41
+/images/awdawdawd.png 60 http://fdentist.ml/
+/images/123452.png 60 http://fdentist.ml/
+/css/site_global.css 5 http://fdentist.ml/
+/images/%d1%8b%d0%b2%d0%b0%d0%bf%d1%80%d0%be%d0%bb%d0%b4.png 60 http://fdentist.ml/
+/images/awdawdawda.png 60 http://fdentist.ml/
+/images/3.png 60 http://fdentist.ml/
+/images/adawdawda.png 60 http://fdentist.ml/
+/images/4.png 60 http://fdentist.ml/
+/images/dental-hygienist-min-min.jpg 59 http://fdentist.ml/
+/images/%d1%8b%d0%b2%d0%b0%d0%bf%d1%80%d0%be%d0%bb%d0%b41390x677.png 60 http://fdentist.ml/
+/css/index.css 5 http://fdentist.ml/
+/images/%d1%8b%d0%b2%d0%b0%d0%bf%d1%80%d0%be%d0%bb%d0%b41411x687.png 60 http://fdentist.ml/
+/images/image-min-min.png 60 http://fdentist.ml/
+/images/11.png 60 http://fdentist.ml/
+/images/22%20(1).png 60 http://fdentist.ml/
+/images/%d0%b9%d0%b9%d0%b9-min.jpg 90 http://fdentist.ml/
+/robots.txt 11 -
+/images/kjujnbg.png 62 http://fdentist.ml/
+/images/%D0%B9%D0%B9%D0%B9-min.jpg 28 http://fdentist.ml/
+/images/fdetntist---%D1%81%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0-%D0%B2-%D0%BA%D0%B8%D0%B5%D0%B2%D0%B5-favicon.ico%3Fcrc=46163960 1 -
+/images/next.svg 60 http://fdentist.ml/
+/images/cancel-(1).svg 63 http://fdentist.ml/
+/%d1%81%d0%b0%d0%b8%cc%86%d1%82/ 2 http://fdentist.ml/
+/%d0%a1%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f/images/%d0%b9%d0%b9%d0%b9-min.jpg 1 http://fdentist.ml/%d0%a1%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f/
+/images/fdetntist---%d1%81%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%87%d0%b5%d1%81%d0%ba%d0%b0%d1%8f-%d0%ba%d0%bb%d0%b8%d0%bd%d0%b8%d0%ba%d0%b0-%d0%b2-%d0%ba%d0%b8%d0%b5%d0%b2%d0%b5-favicon.ico 4 http://fdentist.ml/
+/images/next-(3).svg 60 http://fdentist.ml/
+/images/play-button.svg 60 http://fdentist.ml/
+/wp/ 1 http://fdentist.ml/
+/images/1.png 60 http://fdentist.ml/
+/scripts/require.js%3Fcrc=7928878 1 http://fdentist.ml/
+/images/speech-bubble-(2).svg 60 http://fdentist.ml/
+/%d0%a1%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f/images/%ce%b5%ce%b9%ce%ba%ce%bf%ce%bd%ce%af%ce%b4%ce%b9%ce%bf-%cf%83%cf%87%ce%b5%ce%b4%ce%b9%ce%b1%ce%b3%cf%81%ce%ac%ce%bc%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%ce%b5%ce%b9%ce%b4%cf%8e%ce%b 1 http://fdentist.ml/%d0%a1%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f/css/index.css
+/images/wdasda.png 60 http://fdentist.ml/
+/images/img_9902%20(1)-min-min%20(1).jpg 60 http://fdentist.ml/
+/images/img_9999-min-min%20(1).jpg 60 http://fdentist.ml/
+/scripts/require.js 6 http://fdentist.ml/
+/images/back-(2).svg 60 http://fdentist.ml/
+/images/play-button-(2).svg 60 http://fdentist.ml/
+/images/back.svg 60 http://fdentist.ml/
+/images/%ce%b5%ce%b9%ce%ba%ce%bf%ce%bd%ce%af%ce%b4%ce%b9%ce%bf-%cf%83%cf%87%ce%b5%ce%b4%ce%b9%ce%b1%ce%b3%cf%81%ce%ac%ce%bc%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%ce%b5%ce%b9%ce%b4%cf%8e%ce%bb%cf%89%ce%bd-%cf%80%cf%81%ce%bf%ce%b5%cf%80%ce%b9%ce%bb%ce%bf%ce%b3%ce%a 24 http://fdentist.ml/css/index.css
+/images/%d1%8b%d0%b2%d1%87%d1%81%d0%b0%d0%bf%d0%bc%d1%82-min.png 60 http://fdentist.ml/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 51
+91.232.158.100 45 281 18148055 20190813150905
+46.219.103.149 22 805 29670348 20190814161433
+35.175.236.69 11 11 1208628 20190808180432
+93.78.222.182 10 302 11427989 20190815231329
+66.249.93.219 7 52 3180885 20190814164234
+3.82.6.127 7 7 771746 20190807041534
+54.152.154.93 7 7 770739 20190808175824
+66.249.93.218 6 49 2362140 20190814164338
+82.144.70.43 6 210 7815646 20190814164443
+77.37.134.182 5 121 4697472 20190814180713
+54.152.82.58 5 5 551874 20190807200833
+52.87.199.211 5 5 551926 20190807035534
+66.249.93.220 4 27 869957 20190814164210
+176.67.22.139 4 110 4319637 20190821183336
+52.90.233.201 3 3 329808 20190807114010
+45.79.30.86 3 100 3848213 20190828032225
+45.33.20.249 3 100 3850471 20190828032227
+52.91.158.218 3 3 334034 20190807201214
+66.102.9.181 2 14 650890 20190814174202
+3.82.120.108 2 2 219872 20190807035946
+18.205.28.32 2 2 220318 20190807195834
+176.9.22.183 2 3 1773486 20190814171615
+194.28.87.237 2 2 1757086 20190805235247
+66.102.9.53 2 10 350768 20190814174202
+23.20.252.36 2 2 219872 20190807041934
+66.102.6.144 1 11 168259 20190814174534
+138.68.254.101 1 1 109936 20190806232838
+52.114.77.26 1 1 878533 20190814165423
+66.102.9.57 1 17 1176441 20190814174124
+66.102.9.183 1 10 122905 20190814174126
+3.87.229.176 1 1 109936 20190807040148
+54.161.157.91 1 1 109936 20190807195433
+66.249.81.244 1 2 113799 20190814173942
+52.43.237.135 1 1 108829 20190827222608
+94.231.74.44 1 22 1482587 20190821152054
+35.183.110.64 0 1 792 
+66.249.81.248 0 1 1085 
+66.102.9.55 1 11 512945 20190814174127
+3.85.135.132 1 1 109936 20190808180030
+66.249.81.181 1 9 647267 20190814173916
+66.102.6.145 1 5 314783 20190814174505
+195.154.61.206 1 1 878541 20190807130422
+66.102.6.143 0 10 1129426 
+91.199.212.132 0 2 154 
+66.249.81.183 0 10 291389 
+46.46.160.203 1 1 878533 20190814171655
+66.249.81.185 0 6 356080 
+185.156.42.5 0 7 526 
+45.58.48.218 1 1 112049 20190807044658
+66.102.9.179 1 7 615942 20190814174048
+51.15.191.81 1 1 878541 20190807104434
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20190805 2 2 1757086 1
+20190806 32 49 2288843 3
+20190807 43 43 6278876 15
+20190808 10 10 1098880 3
+20190813 17 343 19824713 2
+20190814 66 1392 58578979 24
+20190815 7 201 7573104 1
+20190818 0 1 792 0
+20190821 5 132 5802224 3
+20190827 1 1 108829 1
+20190828 6 200 7698684 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 1
+30mn-1h 3
+2mn-5mn 7
+30s-2mn 5
+0s-30s 32
+5mn-15mn 5
+1h+ 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 146 18173794 55 45
+/fonts/gothampro1.woff 18 355436 0 2
+/fonts/gothampro-bold.woff 18 355504 0 7
+/sitemap.xml 1 556 0 0
+// 1 878533 0 1
+/%d1%81%d0%b0%d0%b8%cc%86%d1%82/ 1 110723 0 0
+/%d0%a1%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f/fonts/gothampro1.woff 1 20908 0 0
+/%d0%a1%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f/ 1 107843 0 0
+/%d0%a1%d1%82%d0%be%d0%bc%d0%b0%d1%82%d0%be%d0%bb%d0%be%d0%b3%d0%b8%d1%8f/fonts/gothampro-bold.woff 1 20912 0 0
+/wp/ 1 4268 0 0
+END_SIDER

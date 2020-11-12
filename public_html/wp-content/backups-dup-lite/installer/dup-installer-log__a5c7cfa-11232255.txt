@@ -1,0 +1,462 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:56:49
+* VERSION: 1.3.38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.1.33                                |5.6.40
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2020-11-11 23:22:55
+WP VERSION__________: 5.2.9
+DUP VERSION_________: 1.3.38
+DB__________________: 10.3.26
+DB TABLES___________: 19
+DB ROWS_____________: 705
+DB FILE SIZE________: 1.9MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 5.6.40 | SAPI: litespeed
+PHP MEMORY__________: 128M | SUHOSIN: enabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/fdentist/public_html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://fdentist.ml/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/fdentist/public_html/20201111_fdentist_[HASH]_20201111232255_archive.daf"
+SIZE________________: 51.73MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 08:56:50 - RUNTIME: 0.4316 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (28000/1045): Access denied for user 'fdentist_wp183'@'localhost' (using password: YES) [CODE:2|FILE:/home/fdentist/public_html/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'fdentist_wp183'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:58:10
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.27 -- Build Server: 10.3.26
+FILE SIZE:	dup-database__[HASH].sql (757.7KB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/home/fdentist/public_html/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	175
+
+wp_commentmeta: (0)
+wp_comments: (3)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (446)
+wp_postmeta: (156)
+wp_posts: (73)
+wp_rank_math_404_logs: (0)
+wp_rank_math_internal_links: (1)
+wp_rank_math_internal_meta: (4)
+wp_rank_math_redirections: (0)
+wp_rank_math_redirections_cache: (0)
+wp_rank_math_sc_analytics: (0)
+wp_term_relationships: (1)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_usermeta: (29)
+wp_users: (1)
+Removed '41' cache/transient rows
+
+INSERT DATA RUNTIME: 0.3131 sec.
+STEP-2 COMPLETE @ 08:58:11 - RUNTIME: 0.3254 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:58:20
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "fdentist"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/fdentistcom/public_html"
+path_new______________: "/home/fdentist/public_html"
+siteurl_______________: "http://fdentist.ml"
+url_old_______________: "https://fdentist.com"
+url_new_______________: "http://fdentist.ml"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/fdentistcom/public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  2:"\/home\/fdentistcom\/public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  3:"%2Fhome%2Ffdentistcom%2Fpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  4:"\home\fdentistcom\public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  5:"\\home\\fdentistcom\\public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  6:"%5Chome%5Cfdentistcom%5Cpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  7:"//fdentist.com" ==================================> "//fdentist.ml"
+	SEARCH  8:"\/\/fdentist.com" ================================> "\/\/fdentist.ml"
+	SEARCH  9:"%2F%2Ffdentist.com" ==============================> "%2F%2Ffdentist.ml"
+	SEARCH 10:"//www.fdentist.com" ==============================> "//fdentist.ml"
+	SEARCH 11:"\/\/www.fdentist.com" ============================> "\/\/fdentist.ml"
+	SEARCH 12:"%2F%2Fwww.fdentist.com" ==========================> "%2F%2Ffdentist.ml"
+	SEARCH 13:"https://fdentist.ml" =============================> "http://fdentist.ml"
+	SEARCH 14:"https:\/\/fdentist.ml" ===========================> "http:\/\/fdentist.ml"
+	SEARCH 15:"https%3A%2F%2Ffdentist.ml" =======================> "http%3A%2F%2Ffdentist.ml"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   446][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/fdentistcom/public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  2:"\/home\/fdentistcom\/public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  3:"%2Fhome%2Ffdentistcom%2Fpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  4:"\home\fdentistcom\public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  5:"\\home\\fdentistcom\\public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  6:"%5Chome%5Cfdentistcom%5Cpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  7:"//fdentist.com" ==================================> "//fdentist.ml"
+	SEARCH  8:"\/\/fdentist.com" ================================> "\/\/fdentist.ml"
+	SEARCH  9:"%2F%2Ffdentist.com" ==============================> "%2F%2Ffdentist.ml"
+	SEARCH 10:"//www.fdentist.com" ==============================> "//fdentist.ml"
+	SEARCH 11:"\/\/www.fdentist.com" ============================> "\/\/fdentist.ml"
+	SEARCH 12:"%2F%2Fwww.fdentist.com" ==========================> "%2F%2Ffdentist.ml"
+	SEARCH 13:"https://fdentist.ml" =============================> "http://fdentist.ml"
+	SEARCH 14:"https:\/\/fdentist.ml" ===========================> "http:\/\/fdentist.ml"
+	SEARCH 15:"https%3A%2F%2Ffdentist.ml" =======================> "http%3A%2F%2Ffdentist.ml"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   156][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/fdentistcom/public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  2:"\/home\/fdentistcom\/public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  3:"%2Fhome%2Ffdentistcom%2Fpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  4:"\home\fdentistcom\public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  5:"\\home\\fdentistcom\\public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  6:"%5Chome%5Cfdentistcom%5Cpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  7:"//fdentist.com" ==================================> "//fdentist.ml"
+	SEARCH  8:"\/\/fdentist.com" ================================> "\/\/fdentist.ml"
+	SEARCH  9:"%2F%2Ffdentist.com" ==============================> "%2F%2Ffdentist.ml"
+	SEARCH 10:"//www.fdentist.com" ==============================> "//fdentist.ml"
+	SEARCH 11:"\/\/www.fdentist.com" ============================> "\/\/fdentist.ml"
+	SEARCH 12:"%2F%2Fwww.fdentist.com" ==========================> "%2F%2Ffdentist.ml"
+	SEARCH 13:"https://fdentist.ml" =============================> "http://fdentist.ml"
+	SEARCH 14:"https:\/\/fdentist.ml" ===========================> "http:\/\/fdentist.ml"
+	SEARCH 15:"https%3A%2F%2Ffdentist.ml" =======================> "http%3A%2F%2Ffdentist.ml"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    73][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/fdentistcom/public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  2:"\/home\/fdentistcom\/public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  3:"%2Fhome%2Ffdentistcom%2Fpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  4:"\home\fdentistcom\public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  5:"\\home\\fdentistcom\\public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  6:"%5Chome%5Cfdentistcom%5Cpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  7:"//fdentist.com" ==================================> "//fdentist.ml"
+	SEARCH  8:"\/\/fdentist.com" ================================> "\/\/fdentist.ml"
+	SEARCH  9:"%2F%2Ffdentist.com" ==============================> "%2F%2Ffdentist.ml"
+	SEARCH 10:"//www.fdentist.com" ==============================> "//fdentist.ml"
+	SEARCH 11:"\/\/www.fdentist.com" ============================> "\/\/fdentist.ml"
+	SEARCH 12:"%2F%2Fwww.fdentist.com" ==========================> "%2F%2Ffdentist.ml"
+	SEARCH 13:"https://fdentist.ml" =============================> "http://fdentist.ml"
+	SEARCH 14:"https:\/\/fdentist.ml" ===========================> "http:\/\/fdentist.ml"
+	SEARCH 15:"https%3A%2F%2Ffdentist.ml" =======================> "http%3A%2F%2Ffdentist.ml"
+
+EVALUATE TABLE: "wp_rank_math_404_logs"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_internal_links"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/fdentistcom/public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  2:"\/home\/fdentistcom\/public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  3:"%2Fhome%2Ffdentistcom%2Fpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  4:"\home\fdentistcom\public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  5:"\\home\\fdentistcom\\public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  6:"%5Chome%5Cfdentistcom%5Cpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  7:"//fdentist.com" ==================================> "//fdentist.ml"
+	SEARCH  8:"\/\/fdentist.com" ================================> "\/\/fdentist.ml"
+	SEARCH  9:"%2F%2Ffdentist.com" ==============================> "%2F%2Ffdentist.ml"
+	SEARCH 10:"//www.fdentist.com" ==============================> "//fdentist.ml"
+	SEARCH 11:"\/\/www.fdentist.com" ============================> "\/\/fdentist.ml"
+	SEARCH 12:"%2F%2Fwww.fdentist.com" ==========================> "%2F%2Ffdentist.ml"
+	SEARCH 13:"https://fdentist.ml" =============================> "http://fdentist.ml"
+	SEARCH 14:"https:\/\/fdentist.ml" ===========================> "http:\/\/fdentist.ml"
+	SEARCH 15:"https%3A%2F%2Ffdentist.ml" =======================> "http%3A%2F%2Ffdentist.ml"
+
+EVALUATE TABLE: "wp_rank_math_internal_meta"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/fdentistcom/public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  2:"\/home\/fdentistcom\/public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  3:"%2Fhome%2Ffdentistcom%2Fpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  4:"\home\fdentistcom\public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  5:"\\home\\fdentistcom\\public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  6:"%5Chome%5Cfdentistcom%5Cpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  7:"//fdentist.com" ==================================> "//fdentist.ml"
+	SEARCH  8:"\/\/fdentist.com" ================================> "\/\/fdentist.ml"
+	SEARCH  9:"%2F%2Ffdentist.com" ==============================> "%2F%2Ffdentist.ml"
+	SEARCH 10:"//www.fdentist.com" ==============================> "//fdentist.ml"
+	SEARCH 11:"\/\/www.fdentist.com" ============================> "\/\/fdentist.ml"
+	SEARCH 12:"%2F%2Fwww.fdentist.com" ==========================> "%2F%2Ffdentist.ml"
+	SEARCH 13:"https://fdentist.ml" =============================> "http://fdentist.ml"
+	SEARCH 14:"https:\/\/fdentist.ml" ===========================> "http:\/\/fdentist.ml"
+	SEARCH 15:"https%3A%2F%2Ffdentist.ml" =======================> "http%3A%2F%2Ffdentist.ml"
+
+EVALUATE TABLE: "wp_rank_math_redirections"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_redirections_cache"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rank_math_sc_analytics"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/fdentistcom/public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  2:"\/home\/fdentistcom\/public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  3:"%2Fhome%2Ffdentistcom%2Fpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  4:"\home\fdentistcom\public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  5:"\\home\\fdentistcom\\public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  6:"%5Chome%5Cfdentistcom%5Cpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  7:"//fdentist.com" ==================================> "//fdentist.ml"
+	SEARCH  8:"\/\/fdentist.com" ================================> "\/\/fdentist.ml"
+	SEARCH  9:"%2F%2Ffdentist.com" ==============================> "%2F%2Ffdentist.ml"
+	SEARCH 10:"//www.fdentist.com" ==============================> "//fdentist.ml"
+	SEARCH 11:"\/\/www.fdentist.com" ============================> "\/\/fdentist.ml"
+	SEARCH 12:"%2F%2Fwww.fdentist.com" ==========================> "%2F%2Ffdentist.ml"
+	SEARCH 13:"https://fdentist.ml" =============================> "http://fdentist.ml"
+	SEARCH 14:"https:\/\/fdentist.ml" ===========================> "http:\/\/fdentist.ml"
+	SEARCH 15:"https%3A%2F%2Ffdentist.ml" =======================> "http%3A%2F%2Ffdentist.ml"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/fdentistcom/public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  2:"\/home\/fdentistcom\/public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  3:"%2Fhome%2Ffdentistcom%2Fpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  4:"\home\fdentistcom\public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  5:"\\home\\fdentistcom\\public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  6:"%5Chome%5Cfdentistcom%5Cpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  7:"//fdentist.com" ==================================> "//fdentist.ml"
+	SEARCH  8:"\/\/fdentist.com" ================================> "\/\/fdentist.ml"
+	SEARCH  9:"%2F%2Ffdentist.com" ==============================> "%2F%2Ffdentist.ml"
+	SEARCH 10:"//www.fdentist.com" ==============================> "//fdentist.ml"
+	SEARCH 11:"\/\/www.fdentist.com" ============================> "\/\/fdentist.ml"
+	SEARCH 12:"%2F%2Fwww.fdentist.com" ==========================> "%2F%2Ffdentist.ml"
+	SEARCH 13:"https://fdentist.ml" =============================> "http://fdentist.ml"
+	SEARCH 14:"https:\/\/fdentist.ml" ===========================> "http:\/\/fdentist.ml"
+	SEARCH 15:"https%3A%2F%2Ffdentist.ml" =======================> "http%3A%2F%2Ffdentist.ml"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/fdentistcom/public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  2:"\/home\/fdentistcom\/public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  3:"%2Fhome%2Ffdentistcom%2Fpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  4:"\home\fdentistcom\public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  5:"\\home\\fdentistcom\\public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  6:"%5Chome%5Cfdentistcom%5Cpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  7:"//fdentist.com" ==================================> "//fdentist.ml"
+	SEARCH  8:"\/\/fdentist.com" ================================> "\/\/fdentist.ml"
+	SEARCH  9:"%2F%2Ffdentist.com" ==============================> "%2F%2Ffdentist.ml"
+	SEARCH 10:"//www.fdentist.com" ==============================> "//fdentist.ml"
+	SEARCH 11:"\/\/www.fdentist.com" ============================> "\/\/fdentist.ml"
+	SEARCH 12:"%2F%2Fwww.fdentist.com" ==========================> "%2F%2Ffdentist.ml"
+	SEARCH 13:"https://fdentist.ml" =============================> "http://fdentist.ml"
+	SEARCH 14:"https:\/\/fdentist.ml" ===========================> "http:\/\/fdentist.ml"
+	SEARCH 15:"https%3A%2F%2Ffdentist.ml" =======================> "http%3A%2F%2Ffdentist.ml"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/fdentistcom/public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  2:"\/home\/fdentistcom\/public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  3:"%2Fhome%2Ffdentistcom%2Fpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  4:"\home\fdentistcom\public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  5:"\\home\\fdentistcom\\public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  6:"%5Chome%5Cfdentistcom%5Cpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  7:"//fdentist.com" ==================================> "//fdentist.ml"
+	SEARCH  8:"\/\/fdentist.com" ================================> "\/\/fdentist.ml"
+	SEARCH  9:"%2F%2Ffdentist.com" ==============================> "%2F%2Ffdentist.ml"
+	SEARCH 10:"//www.fdentist.com" ==============================> "//fdentist.ml"
+	SEARCH 11:"\/\/www.fdentist.com" ============================> "\/\/fdentist.ml"
+	SEARCH 12:"%2F%2Fwww.fdentist.com" ==========================> "%2F%2Ffdentist.ml"
+	SEARCH 13:"https://fdentist.ml" =============================> "http://fdentist.ml"
+	SEARCH 14:"https:\/\/fdentist.ml" ===========================> "http:\/\/fdentist.ml"
+	SEARCH 15:"https%3A%2F%2Ffdentist.ml" =======================> "http%3A%2F%2Ffdentist.ml"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/fdentistcom/public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  2:"\/home\/fdentistcom\/public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  3:"%2Fhome%2Ffdentistcom%2Fpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  4:"\home\fdentistcom\public_html" ===================> "/home/fdentist/public_html"
+	SEARCH  5:"\\home\\fdentistcom\\public_html" ================> "\/home\/fdentist\/public_html"
+	SEARCH  6:"%5Chome%5Cfdentistcom%5Cpublic_html" =============> "%2Fhome%2Ffdentist%2Fpublic_html"
+	SEARCH  7:"//fdentist.com" ==================================> "//fdentist.ml"
+	SEARCH  8:"\/\/fdentist.com" ================================> "\/\/fdentist.ml"
+	SEARCH  9:"%2F%2Ffdentist.com" ==============================> "%2F%2Ffdentist.ml"
+	SEARCH 10:"//www.fdentist.com" ==============================> "//fdentist.ml"
+	SEARCH 11:"\/\/www.fdentist.com" ============================> "\/\/fdentist.ml"
+	SEARCH 12:"%2F%2Fwww.fdentist.com" ==========================> "%2F%2Ffdentist.ml"
+	SEARCH 13:"https://fdentist.ml" =============================> "http://fdentist.ml"
+	SEARCH 14:"https:\/\/fdentist.ml" ===========================> "http:\/\/fdentist.ml"
+	SEARCH 15:"https%3A%2F%2Ffdentist.ml" =======================> "http%3A%2F%2Ffdentist.ml"
+--------------------------------------
+SCANNED:	Tables:19 	|	 Rows:716 	|	 Cells:4292 
+UPDATED:	Tables:3 	|	 Rows:89 	|	 Cells:91 
+ERRORS:		0 
+RUNTIME:	0.114200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""fdentist_wp183""
+	UPDATE DB_USER ""fdentist_wp183""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:58:20 - RUNTIME: 0.2083 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+====================================

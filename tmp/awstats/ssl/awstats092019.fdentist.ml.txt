@@ -1,0 +1,325 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201909 will be lost/reset.
+# Last config file used to build this data file was /home/fdentist/tmp/awstats/ssl/awstats.fdentist.ml.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2671                
+POS_VISITOR 8271                
+POS_DAY 8635                
+POS_DOMAIN 3290                
+POS_LOGIN 3548                
+POS_ROBOT 3703                
+POS_WORMS 4019                
+POS_EMAILSENDER 4150                
+POS_EMAILRECEIVER 4293                
+POS_SESSION 8869                
+POS_SIDER 9015                
+POS_FILETYPES 4428                
+POS_DOWNLOADS 4644                
+POS_OS 4692                
+POS_BROWSER 4791                
+POS_SCREENSIZE 4903                
+POS_UNKNOWNREFERER 4977                
+POS_UNKNOWNREFERERBROWSER 5149                
+POS_ORIGIN 5231                
+POS_SEREFERRALS 5364                
+POS_PAGEREFS 5508                
+POS_SEARCHWORDS 5656                
+POS_KEYWORDS 5808                
+POS_MISC 2335                
+POS_ERRORS 5867                
+POS_CLUSTER 3404                
+POS_SIDER_404 5956                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20191001193432 1 0 10320507298509
+FirstTime 0
+LastTime 20190923120507
+LastUpdate 20191001231849 1 0 0 0 0
+TotalVisits 6                   
+TotalUnique 6                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 8                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 1 2 109660
+4 0 0 0 55 56 124586
+5 0 0 0 2 5 989511
+6 0 0 0 2 3 988193
+7 0 0 0 6 23 638687
+8 0 1 38753 1 3 879163
+9 3 77 3392316 4 7 1977454
+10 1 1 131070 2 3 988946
+11 1 1 196605 5 23 583992
+12 3 56 2604952 2 6 218363
+13 0 0 0 1 2 109660
+14 0 0 0 2 3 989241
+15 0 1 38753 0 2 630
+16 0 0 0 7 7 0
+17 0 0 0 1 2 109660
+18 0 0 0 1 2 110228
+19 2 12 38753 0 2 630
+20 0 1 4414 1 1 878533
+21 0 72 3349149 2 6 217866
+22 0 0 0 0 0 0
+23 0 0 0 6 22 571003
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+ua 5 164 6862138
+ie 3 56 2604952
+us 2 2 327675
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+YandexMobileBot/ 57 1313852 20190926054822 0
+YandexBot/ 21 2116485 20190930033349 0
+bot[\s_+:,\.\;\/\\-] 8 7028264 20190927100030 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 0 20190928160222 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+woff 6 41820 0 0
+jpg 118 4247567 0 0
+gif 3 129 0 0
+ico 2 8828 0 0
+js 6 201094 0 0
+css 2 26107 0 0
+html 4 439608 0 0
+png 45 4809561 0 0
+svg 36 20051 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+win7 164 5
+win10 56 3
+Unknown 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+chrome76.0.3809.132 164 5
+mozilla 2 2
+chrome77.0.3865.90 56 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20190905110928
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 5 58
+From1 0 0
+From2 0 0
+From3 0 0
+From4 5 164
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 93 27405
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 63
+/forum/ 1 -
+/images/%ce%b5%ce%b9%ce%ba%ce%bf%ce%bd%ce%af%ce%b4%ce%b9%ce%bf-%cf%83%cf%87%ce%b5%ce%b4%ce%b9%ce%b1%ce%b3%cf%81%ce%ac%ce%bc%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%ce%b5%ce%b9%ce%b4%cf%8e%ce%bb%cf%89%ce%bd-%cf%80%cf%81%ce%bf%ce%b5%cf%80%ce%b9%ce%bb%ce%bf%ce%b3%ce%a 6 https://fdentist.ml/phone/css/index.css
+/demo/downloader/index.php 1 -
+/staging/errors/503.php 1 -
+/old/index.php/admin/ 1 -
+/images/%d0%b9%d0%b9%d0%b9-min1027x684.jpg 6 https://fdentist.ml/phone/index.html
+/dev/rss/order/new 1 -
+/shop/rss/catalog/review 1 -
+/demo/index.php/admin/ 1 -
+/old/rss/catalog/notifystock 1 -
+/shop/rss/catalog/notifystock 1 -
+/staging/index.php/admin/ 1 -
+/staging/rss/catalog/notifystock 1 -
+/magento/errors/503.php 1 -
+/test/rss/catalog/review 1 -
+/dev/rss/catalog/review 1 -
+/rss/catalog/notifystock 1 -
+/dev/errors/503.php 1 -
+/rss/order/new 1 -
+/demo/rss/catalog/notifystock 1 -
+/dev/rss/catalog/notifystock 1 -
+/store/index.php/admin/ 1 -
+/old/errors/503.php 1 -
+/demo/rss/catalog/review 1 -
+/old/rss/catalog/review 1 -
+/vbulletin/ 1 -
+/shop/index.php/admin/ 1 -
+/test/index.php/admin/ 1 -
+/old/rss/order/new 1 -
+/store/downloader/index.php 1 -
+/store/rss/order/new 1 -
+/dev/index.php/admin/ 1 -
+/forums/ 1 -
+/vb5/ 1 -
+/test/downloader/index.php 1 -
+/rss/catalog/review 1 -
+/errors/503.php 1 -
+/staging/rss/catalog/review 1 -
+/demo/errors/503.php 1 -
+/shop/rss/order/new 1 -
+/dev/downloader/index.php 1 -
+/magento/rss/order/new 1 -
+/magento/index.php/admin/ 1 -
+/downloader/index.php 1 -
+/shop/downloader/index.php 1 -
+/test/rss/order/new 1 -
+/store/rss/catalog/notifystock 1 -
+/vbulletin5/ 1 -
+/staging/rss/order/new 1 -
+/magento/rss/catalog/review 1 -
+/old/downloader/index.php 1 -
+/index.php/admin/ 1 -
+/staging/downloader/index.php 1 -
+/test/rss/catalog/notifystock 1 -
+/store/errors/503.php 1 -
+/demo/rss/order/new 1 -
+/magento/rss/catalog/notifystock 1 -
+/shop/errors/503.php 1 -
+/vb/ 1 -
+/robots.txt 21 -
+/magento/downloader/index.php 1 -
+/test/errors/503.php 1 -
+/store/rss/catalog/review 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 8
+93.78.222.182 3 150 6780218 20190902094340
+93.78.243.145 2 12 38753 20190906191952
+31.13.115.3 2 23 1490433 20190923120506
+31.13.115.15 1 15 445925 20190923120507
+157.245.11.30 1 1 196605 20190905110928
+167.71.86.38 1 1 131070 20190905103014
+31.13.115.24 0 18 668594 
+93.78.165.13 0 2 43167 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20190901 0 72 3349149 0
+20190902 3 77 3392316 1
+20190904 0 1 38753 0
+20190905 2 2 327675 2
+20190906 2 12 38753 1
+20190907 0 1 38753 0
+20190909 0 1 4414 0
+20190923 3 56 2604952 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/fonts/gothampro-bold.woff 3 20912 1 1
+/fonts/gothampro1.woff 3 20908 1 3
+/phone/ 2 111933 2 0
+/ 2 327675 2 2
+END_SIDER

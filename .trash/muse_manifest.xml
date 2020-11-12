@@ -1,0 +1,451 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://fdentist.com" resolutions="1x" timestamp="1565696650997">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="thank.css" crc="78465825" ref="thank"/>
+    <file name="index.css" crc="27314553" ref="index"/>
+  </folder>
+  <folder name="fonts">
+    <file name="gothampro-bold.woff" crc="3787544837"/>
+    <file name="gothampro-bold.eot" crc="3836029888"/>
+    <file name="gothampro-bold.svg" crc="3794948589"/>
+    <file name="gothampro1.woff" crc="342937453"/>
+    <file name="gothampro1.eot" crc="4224209587"/>
+    <file name="gothampro1.svg" crc="4126136771"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>thank:index:thank"/>
+    <file name="museutils.js" crc="340535759" ref="phone>index:phone>thank:index:thank"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>thank:index:thank"/>
+    <file name="museconfig.js" crc="4286661555" ref="phone>index:phone>thank:index:thank"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:phone>thank:index:thank"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index:index"/>
+    <file name="webpro.js" crc="4059564322" ref="phone>index:index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="phone>index:index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="phone>index:index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="phone>index:index"/>
+    <file name="form_check.php" crc="4020933626" ref="phone>index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="phone>index"/>
+    <file name="form_process.php" crc="37464564" ref="phone>index"/>
+    <file name="form-u15298.php" crc="137099100" ref="phone>index"/>
+    <file name="form-u15109.php" crc="272850084" ref="phone>index"/>
+    <file name="form-u12391.php" crc="3912157147" ref="phone>index"/>
+    <file name="form-u15172.php" crc="9494190" ref="phone>index"/>
+    <file name="form-u15235.php" crc="3866433484" ref="phone>index"/>
+    <file name="form-u15361.php" crc="90365243" ref="phone>index"/>
+    <file name="form-u15540.php" crc="510407743" ref="phone>index"/>
+    <file name="form-u15424.php" crc="484393358" ref="phone>index"/>
+    <file name="require.js" crc="7928878" ref="phone>index:phone>thank:index:thank"/>
+    <file name="form-u7666.php" crc="3836741262" ref="index"/>
+    <file name="form-u7881.php" crc="62576784" ref="index"/>
+    <file name="form-u8079.php" crc="213347781" ref="index"/>
+    <file name="form-u8208.php" crc="3776412963" ref="index"/>
+    <file name="form-u8316.php" crc="116530143" ref="index"/>
+    <file name="form-u8631.php" crc="43367646" ref="index"/>
+    <file name="form-u5870.php" crc="4170381274" ref="index"/>
+    <file name="form-u5029.php" crc="172249438" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="fdetntist---стоматологическая-клиника-в-киеве-favicon.ico" crc="46163960" ref="phone>index"/>
+    <file name="ййй-min1027x684.jpg" crc="7416028" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ывапролд.png" crc="4174936850" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ывапролд1360x662.png" crc="4174936850" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_9902 (1)-min-min (1).jpg" crc="316047871" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ывапролд1158x564.png" crc="4174936850" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dental-hygienist-min-min.jpg" crc="18760477" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="play-button-(2).svg" crc="441832831" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="play-button (2)_poster_.png" crc="4069132584" ref="phone>index"/>
+    <file name="22 (1)402x236.png" crc="4132375491" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="adawdawda.png" crc="220162788" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="awdawdawd.png" crc="4195574526" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="wdasda.png" crc="3800000086" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="awdawdawda.png" crc="3986543915" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="отбел4-min.jpg" crc="4274833926" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="отбел44-min.jpg" crc="4025689540" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="комплексная чистка1-min.jpg" crc="3886084252" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="комплексная чистка11-min.jpg" crc="4254323714" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="протез11-min.jpg" crc="3782888711" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="протез1-min.jpg" crc="3974670375" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="im2g_8254-min.jpg" crc="223412505" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8254-min.jpg" crc="143062229" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="отбеливание 2-min.jpg" crc="4080690118" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="отбеливание 22-min.jpg" crc="491241575" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="back.svg" crc="514477049" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="back_poster_.png" crc="310236940" ref="phone>index"/>
+    <file name="next.svg" crc="69181330" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="next_poster_.png" crc="3767141061" ref="phone>index"/>
+    <file name="12.jpg" crc="53814493" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="play-button.svg" crc="3944781663" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="play-button_poster_.png" crc="4089317119" ref="phone>index"/>
+    <file name="εικονίδιο-σχεδιαγράμματος-ειδώλων-προεπιλογής-105356006.jpg" crc="3946571060" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="back-(2).svg" crc="3813091608" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="back (2)_poster_.png" crc="395552133" ref="phone>index"/>
+    <file name="next-(3).svg" crc="506403710" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="next (3)_poster_.png" crc="225582732" ref="phone>index"/>
+    <file name="img_9873-min.jpg" crc="3977637164" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_9907 (1)-min.jpg" crc="2934411" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_9883 (1)-min.jpg" crc="4211622950" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_9863-min.jpg" crc="4260493658" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_0037-min.jpg" crc="192486099" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_9868-min.jpg" crc="385057997" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_9930-min.jpg" crc="4290642188" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8737-min.jpg" crc="4127330957" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img087-min.jpg" crc="120924506" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img093-min.jpg" crc="3908316916" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img085-min.jpg" crc="4136732893" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img086-min.jpg" crc="256713526" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img092-min.jpg" crc="35433172" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img089-min.jpg" crc="70948057" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img083-min.jpg" crc="502829864" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img091-min.jpg" crc="4290631964" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img084-min.jpg" crc="4243698906" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img088-min.jpg" crc="64025573" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img090-min.jpg" crc="4135702229" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img094-min.jpg" crc="3901141477" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cancel-(1).svg" crc="309378038" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cancel (1)_poster_.png" crc="382293618" ref="phone>index"/>
+    <file name="kjujnbg.png" crc="3930677238" seo="true" ref="phone>index:phone>thank:index:thank">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="thank" alt=""/>
+      <caption webpage="thank" alt=""/>
+    </file>
+    <file name="menu.svg" crc="330095571" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="menu_poster_.png" crc="206465766" ref="phone>index"/>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:index"/>
+    <file name="speech-bubble-(2).svg" crc="101984872" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="speech-bubble (2)_poster_.png" crc="4209555374" ref="phone>index"/>
+    <file name="11381x276.png" crc="4141734051" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_9999-min-min (1)1056x626.jpg" crc="4004015727" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8265-min.jpg" crc="3830180828" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8261-min.jpg" crc="4109696525" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8262-min.jpg" crc="4287234471" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8269-min.jpg" crc="4015809434" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8273-min.jpg" crc="4233686917" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8272-min.jpg" crc="346705244" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8264-min.jpg" crc="340945402" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8271-min.jpg" crc="4130159426" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fj4a8595-min.jpg" crc="4209415850" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fj4a8954-min.jpg" crc="3865341671" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fj4a9021-min.jpg" crc="429431463" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="83-min.jpg" crc="4049544109" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fj4a9093-min.jpg" crc="3919523694" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="123452.png" crc="171049046" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="image-min-min.png" crc="490278841" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3.png" crc="393093866" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4.png" crc="4134748474" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="1531x243.png" crc="4205978974" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="thank-favicon.ico" crc="46163960" ref="phone>thank"/>
+    <file name="ййй-min.jpg" crc="119748571" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ывчсапмт-min.png" crc="4263746133" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="22 (1).png" crc="401629516" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="11.png" crc="72739739" seo="true" ref="index:thank">
+      <caption webpage="index" alt=""/>
+      <caption webpage="thank" alt=""/>
+    </file>
+    <file name="1.png" crc="66832319" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_9999-min-min (1).jpg" crc="296824531" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ывапролд1411x687.png" crc="4174936850" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ывапролд1390x677.png" crc="4174936850" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="отбел6-min.jpg" crc="12961719" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="отбел66-min.jpg" crc="3826755652" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img087-min-u4689-fr.jpg" crc="3818044803" ref="index"/>
+    <file name="img086-min-u4713-fr.jpg" crc="501090767" ref="index"/>
+    <file name="img085-min-u4721-fr.jpg" crc="3914063742" ref="index"/>
+    <file name="img092-min-u4697-fr.jpg" crc="4201767703" ref="index"/>
+    <file name="img093-min-u4846-fr.jpg" crc="28553293" ref="index"/>
+    <file name="img089-min-u4848-fr.jpg" crc="3991382007" ref="index"/>
+    <file name="img091-min-u4867-fr.jpg" crc="3911596752" ref="index"/>
+    <file name="img090-min-u4866-fr.jpg" crc="163485525" ref="index"/>
+    <file name="img083-min-u4808-fr.jpg" crc="134306759" ref="index"/>
+    <file name="img088-min-u4811-fr.jpg" crc="4217567777" ref="index"/>
+    <file name="img084-min-u4810-fr.jpg" crc="3972074865" ref="index"/>
+    <file name="img094-min-u4809-fr.jpg" crc="182975433" ref="index"/>
+    <file name="img_8263-min.jpg" crc="506764960" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8268-min.jpg" crc="181720448" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8258-min.jpg" crc="204756614" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8267-min.jpg" crc="142602360" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8259-min.jpg" crc="3846477578" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8270-min.jpg" crc="406289615" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8260-min.jpg" crc="4256100574" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_8266-min.jpg" crc="472179448" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="114-min.jpg" crc="179169299" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fj4a8929-min.jpg" crc="62727726" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="134-min.jpg" crc="4254573182" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ййй-min1171x781.jpg" crc="4076204017" seo="true" ref="thank">
+      <caption webpage="thank" alt=""/>
+    </file>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="thank.css" crc="3841936497" ref="phone>thank"/>
+      <file name="index.css" crc="119056504" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="3811439" seo="true" mt="1560788198065" redirect="true"/>
+    <file name="thank.html" crc="4212149842" seo="true" mt="1560788219592" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="4232855080" mt="1563449454787" redirect="true"/>
+  <file name="thank.html" crc="3770693968" seo="true" mt="1563449454787" redirect="true"/>
+</manifest>

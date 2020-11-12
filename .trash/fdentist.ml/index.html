@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="build/css/intlTelInput.css">
+</head>
+
+<body>
+    <h1>TEST INPUT FILTER</h1>
+    <input type="tel" name="telephone" id="tel" placeholder=""
+        style="margin: 40px auto 20px; height: 40px; width: 300px;">
+    <button id="vall">click</button>
+    <script src="build/js/jQuery3.4.1.min.js"></script>
+    <script src="build/js/intlTelInput.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            var input = document.querySelector("#tel");
+            window.intlTelInput(input, {
+                utilsScript: "build/js/utils.js"
+            });
+
+            $('#tel').on('input', function () {
+                $(this).val($(this).val().replace(/[A-Za-zА-Яа-яЁё]/, ''))
+            });
+
+            let btn = $('#vall');
+            console.log(btn);
+
+            btn.on('click', function () {
+                let valueInput = $('#tel').val();
+                console.log(valueInput);
+            })
+        })
+    </script>
+</body>
+
+</html>

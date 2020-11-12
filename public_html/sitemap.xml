@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="http://fdentist.ml/wp-content/plugins/google-sitemap-plugin/sitemap-index.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>http://fdentist.ml/default_sitemap.xml</loc>
+    <lastmod>2020-11-12T13:56:33+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>http://fdentist.ml/image_sitemap.xml</loc>
+    <lastmod>2020-11-12T13:56:33+00:00</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>http://fdentist.ml/video_sitemap.xml</loc>
+    <lastmod>2020-11-12T13:56:33+00:00</lastmod>
+  </sitemap>
+</sitemapindex>
